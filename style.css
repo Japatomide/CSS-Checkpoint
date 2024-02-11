@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header {
+  font-style: oblique;
+  padding: 16px;
+  background-color: coral;
+  color: whitesmoke;
+}
+
+#navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+#navbar ul {
+  padding: 10px;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#showcase {
+  background-image: url("./bpimg.jpeg");
+  background-position: center right;
+  /* background-color: #555; */
+  min-height: 420px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+
+#showcase h1 {
+  color: black;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+  font-weight: bolder;
+}
+
+#work-section {
+  display: flex;
+}
+
+#work-section h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  background-color: aquamarine;
+  padding: 100px;
+  width: 50%;
+  height: 650px;
+  margin-bottom: 50px;
+}
+
+#work-img {
+    width: 50%;
+}
+
+#vid {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#resume-section {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#resume-section h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  background-color: black;
+  padding: 100px;
+  min-width: 50%;
+  width: 500px;
+  height: 650px;
+  margin-bottom: 50px
+}
+
+#resume-section img{
+    height: 650px;
+    width: 400px;
+}
+
+#contact-section div{
+    text-align: center;
+    display: block;
+}
+
+#contact-section input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact-section textarea {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#main-footer {
+    background: #333;
+    color:#fff;
+    text-align: center;
+    padding: 40px;
+    margin-top: 70px;
+}
+
+ 
